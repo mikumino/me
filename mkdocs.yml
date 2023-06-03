@@ -1,0 +1,36 @@
+site_name: mikumino
+theme:
+  name: material
+  logo: img/logo.png
+  favicon: img/favicon.ico
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+  palette:
+    scheme: slate
+    primary: pink
+    accent: pink
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: 'index.md'
+  - Japanese:
+    - Resources: 'resources.md'
+    - Essays: 'essays.md'
+    - Recommendations:
+      - Anime: 'anime.md'
+      - Manga: 'manga.md'
+      - Light Novels: 'ln.md'
+      - Visual Novels: 'vn.md'
+
+extra:
+  generator: false
