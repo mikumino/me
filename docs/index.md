@@ -8,7 +8,7 @@ Welcome to my site. This is a small website that I am making to stick onto my so
 
 ## About me
 
-My name is mikumino :) idk what else to say LOL
+My name is mikumino :) my pronouns are he/him idk what else to say LOL
 
 ### Interests
 
